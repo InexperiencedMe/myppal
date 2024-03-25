@@ -1,0 +1,4 @@
+data/full-data/train/imgs
+data/full-data/train/anns
+data/full-data/val/imgs
+data/full-data/val/anns
