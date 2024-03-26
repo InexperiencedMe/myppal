@@ -12,7 +12,7 @@ myppal enables you to train an Object Detection model with a specified combinati
 Algorithm from the paper beat all previous similar active learning methods, but it uses a constant ratios of images sampled at each stage. I wanted to see how these 2 methods work together, and which should be prioritized.
 
 More details have been included in the [thesis](myppalThesisBen.pdf) I wrote.
-I also made a [video](https://youtu.be/27F1JQ2qatY) describing the whole background of this project and commenting the important thesis' parts in a more approachable way.
+I also made a [video](https://youtu.be/oIDFBUMI9Kc) describing the whole background of this project and commenting the important thesis' parts in a more approachable way.
 
 
 ## Usage
