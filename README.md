@@ -1,7 +1,7 @@
 # myppal: My Plug-and-Play Active Learning for Object Detection
 ## Exploring active learning methods that maximize sample efficiency
 
-This project is based on the paper [Plug and Play Active Learning For Object Detection](https://arxiv.org/abs/2211.11612). It is an implementation of PPAL algorithm in Detectron2, instead of MMDetection as original paper's source code.
+This project is based on the paper [Plug and Play Active Learning For Object Detection](https://arxiv.org/abs/2211.11612) and it implements its algorithm in Detectron2, instead of MMDetection as original paper's source code.
 
 myppal enables you to train an Object Detection model with a specified combination of uncertainty-based sampling and diversity-based sampling. You can compare models that only use uncertainty, only diversity, half-half, or any proportion of the 2 sampling methods.
 
@@ -9,7 +9,7 @@ myppal enables you to train an Object Detection model with a specified combinati
 <img src="Resources for README/PPAL pipeline.jpg" style="width:75%;"/>
 </p>
 
-Algorithm from the paper beat all previous similar active learning methods, but it used a constant ratio of candidate pool picked by uncertainty, so diversity sampler also had the same options to choose from. I wanted to see how do these 2 methods work together, and which should be prioritized.
+Algorithm from the paper beat all previous similar active learning methods, but it uses a constant ratios of images sampled at each stage. I wanted to see how these 2 methods work together, and which should be prioritized.
 
 More details have been included in the [thesis](myppalThesisBen.pdf) I wrote.
 I also made a [video](https://youtu.be/27F1JQ2qatY) describing the whole background of this project and commenting the important thesis' parts in a more approachable way.
@@ -24,7 +24,7 @@ myppal
 |
 \-- data
     |
-    \ full-data
+    \-- full-data
       |
       |-- train
       |   |
@@ -49,7 +49,7 @@ myppal
 6. Plot its loss wiht plotloss.py
 7. See by yourself how well its doing with predict.py
 
-If you have any issues or run into bugs - let me know. I did some code cleanup without even testing it because Im chill like that.
+If you have any issues or run into bugs - let me know. There are things that I take for granted, since I spend a lot of time on this project, but might not be obvious to others.
 
 ## Q&A
 
