@@ -51,6 +51,23 @@ myppal
 
 If you have any issues or run into bugs - let me know. There are things that I take for granted, since I spend a lot of time on this project, but might not be obvious to others.
 
+## Summary of files
+
+- Resouces for README folder: attachments for description on GitHub, ignore it
+- data folder: Prepared placeholder structure for images with annotations for training and validation
+- LICENSE: MIT License to let people know they can freely use the code
+- README.md: The text in Markdown language you're reading right now to display on GitHub
+- class.names: file with names of classes for the dataset
+- config.py: configuration parameters to use in code. Usually hold default values, and more important parameters can be overwritten with script parameters
+- evaluate.py: script for evaluating performance of models and saving results to a .csv file
+- loss.py: class used for calculating loss, you dont have to ever open it or touch it, its not for running
+- main.py: main script for running training with various parameters as shown in experiment.sh
+- myppalThesisBen.pdf: my thesis document describing the project
+- plotloss.py: runnable script to make a plot of training and validation losses after training
+- predict.py: script for visually seeing your model make predictions and draw bounding boxes
+- requirements.txt main dependencies of all scripts
+- utils.py: core functions, not runnable, but if you want to see the underlying code of the whole algorithm, look at main.py + utils.py
+
 ## Q&A
 
 **How is Active Learning itself implemented?**
