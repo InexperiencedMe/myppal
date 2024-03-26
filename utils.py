@@ -107,7 +107,7 @@ def get_dicts(img_dir, ann_dir):
 
 def register_datasets(root_dir, class_list_file):
     with open(class_list_file, 'r') as reader:
-        classes_ = [l[:-1] for l in reader.readlines()]
+        classes_ = reader.read().splitlines()
     for d in ['train', 'val']:
         if d in DatasetCatalog.list():
             DatasetCatalog.remove(d)

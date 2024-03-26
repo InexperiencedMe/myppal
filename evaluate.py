@@ -28,7 +28,7 @@ if __name__ == "__main__":
         seedEverything(config.SEED)
 
         allScores = []
-        for model in ["fullUN", "175525", "0907050", "755250", "fullDIV", "constant05", "959085", "958575", "constant90", "constant95", "002505", "250575"]:
+        for model in ["TESTING1"]:#["fullUN", "175525", "0907050", "755250", "fullDIV", "constant05", "959085", "958575", "constant90", "constant95", "002505", "250575"]:
                 for i in range(5): # Trained all models in 5 rounds
                         with open('modelConfig.pkl', 'rb') as file:
                                 cfg = pickle.load(file)
