@@ -100,7 +100,7 @@ Then the rest was up to me based on not beginner-friendly detectron2 documentati
 
 ## Citation
 
-Oh yeah I dare you to cite me, no idea has that even works, Im not an arXiv certified guy. Full name is Beniamin Weyna, though.
+Oh yeah I dare you to cite me, no idea has that even works, Im not an arXiv certified guy.
 
 
 
